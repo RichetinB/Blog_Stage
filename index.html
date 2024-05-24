@@ -3,34 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Blog</title>
+    <title>Mon Blog/Portfolio</title>
     <link rel="stylesheet" href="styles/main.css">
+    <script defer src="scripts/swup.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Bienvenue sur mon blog</h1>
+    <header  class="main-header">
+        <div class="header-overlay">
+            <h1>Bienvenue sur mon blog/portfolio</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="posts\post1\index.html">Article 1</a></li>
-            <li><a href="posts\post2\index.html">Article 2</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h2>Articles récents</h2>
-        <article>
-            <h3><a href="posts\post1\index.html">Titre de l'article 1</a></h3>
-            <p>Résumé de l'article 1...</p>
-        </article>
-        <article>
-            <h3><a href="posts\post2\index.html">Titre de l'article 2</a></h3>
-            <p>Résumé de l'article 2...</p>
-        </article>
+    <main id="swup" class="content transition-fade">
+        <h2>Introduction</h2>
+        <p>Bienvenue sur mon blog/portfolio. Découvrez mon parcours, mes compétences et mes réalisations professionnelles.</p>
     </main>
-    <footer>
-        <p>&copy; 2024 Mon Blog</p>
-    </footer>
-    <script src="scripts\main.js"></script>
+
+    <div class="image_ecole_right">
+        <img src="assets/logo_ynov.png" alt="logo ynov">
+    </div>
+
+    <div class="image_stage">
+        <img src="assets/logo-asiaction_gold.png" alt="logo ynov">
+    </div>
+
+
+    <!-- <footer>
+        <p>&copy; 2024 Mon Blog/Portfolio</p>
+    </footer> -->
 </body>
 </html>

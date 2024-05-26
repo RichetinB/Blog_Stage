@@ -8,7 +8,7 @@
     <script defer src="scripts/swup.js"></script>
 </head>
 <body>
-    <header  class="main-header">
+    <header class="main-header">
         <div class="header-overlay">
             <h1>Bienvenue sur mon blog/portfolio</h1>
         </div>
@@ -16,9 +16,21 @@
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="about.html">À propos</a></li>
+                <li class="dropdown">
+                    <a href="portfolio.html" class="dropbtn">Portfolio</a>
+                    <div class="dropdown-content">
+                        <a href="posts\post1\index.html">Titre 1</a>
+                        <a href="posts\post2\index.html">Projet 2</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="blog.html" class="dropbtn">Blog</a>
+                    <div class="dropdown-content">
+                        <a href="posts\post1\index.html">Titre 1</a>
+                        <a href="posts\post2\index.html">Post 2</a>
+                    </div>
+                </li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
             </ul>
         </nav>
     </header>
@@ -27,14 +39,19 @@
         <p>Bienvenue sur mon blog/portfolio. Découvrez mon parcours, mes compétences et mes réalisations professionnelles.</p>
     </main>
 
-    <div class="image_ecole_right">
-        <img src="assets/logo_ynov.png" alt="logo ynov">
+    <div class="image-container">
+        <div class="image_ecole_right">
+            <img src="assets/logo_ynov.png" alt="logo ynov">
+        </div>
+
+        <div class="image_stage">
+            <img src="assets/logo-asiaction_gold.png" alt="logo ynov">
+        </div>
     </div>
 
-    <div class="image_stage">
-        <img src="assets/logo-asiaction_gold.png" alt="logo ynov">
-    </div>
-
+    <a href="posts\post1\index.html" class="circle-button">
+        <span>&#9654;</span>
+    </a>
 
     <!-- <footer>
         <p>&copy; 2024 Mon Blog/Portfolio</p>

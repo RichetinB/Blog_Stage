@@ -89,6 +89,29 @@ p {
 }
 
 
-.contact{
-    
+/* BALISE PAGE CONTACT*/
+.contact {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info, .contact-details {
+    width: 45%;
+}
+
+.contact-info h2, .contact-details h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info p, .contact-details p {
+    margin: 0;
+    line-height: 1.6;
 }

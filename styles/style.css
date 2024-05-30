@@ -91,27 +91,52 @@ p {
 
 /* BALISE PAGE CONTACT*/
 .contact {
-    background-color: #000;
-    color: #fff;
+    background-color: white;
+    color: black;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     border-radius: 20px;
     padding: 40px;
     margin: 30px auto;
-    max-width: 800px;
+    width: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: width 2s; 
+    border-color: #000;
 }
 
-.contact-info, .contact-details {
-    width: 45%;
+.contact:hover {
+    width: 800px; 
 }
 
-.contact-info h2, .contact-details h2 {
-    margin-bottom: 20px;
-}
 
 .contact-info p, .contact-details p {
     margin: 0;
     line-height: 1.6;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.contact:hover .contact-info p, .contact:hover .contact-details p {
+    opacity: 1; 
+}
+
+/*SOMMAIRE*/
+
+@import url("https://fonts.googleapis.com/css2?family=Literata");
+
+* {
+    font-family: "Literata";
+}
+
+.toc-list, .toc-list ol {
+	list-style-type: none;
+}
+
+.toc-list {
+	padding: 0;
+}
+
+.toc-list ol {
+	padding-inline-start: 2ch;
 }

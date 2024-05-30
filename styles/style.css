@@ -140,3 +140,31 @@ p {
 .toc-list ol {
 	padding-inline-start: 2ch;
 }
+
+.container-sommaire{
+    border-color: #000;
+    border-radius: 0;
+    background-color: white;
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: center;
+    color: #000;
+    padding: 20px;
+    margin: 10%;
+    width: 300px;
+    height: 500px;
+    box-shadow: #000;
+    border-style: inset;
+
+}
+
+.container-sommaire,a{
+    color: #000;
+    text-align: center;
+    
+}
+
+
+
+/*FIN DU SOMMAIRE*/
